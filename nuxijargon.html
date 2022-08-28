@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+  <link rel="Stylesheet" href="/css/nuxi.css" type="text/css">
+  <TITLE>The nuxi problem</TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <META NAME="EDITOR" CONTENT="/usr/bin/vi">
+  <META NAME="Keywords" CONTENT="Paolini, Andrea Paolini, nuxi, nuxi problem">
+  <!-- $Id: nuxijargon.php,v 1.2 2004/03/08 03:16:20 nuxiweb Exp nuxiweb $ -->
+  <?php
+    $rev=  '$Revision: 1.2 $'; $rev= substr($rev,11,-2);
+    $date= '$Date: 2004/03/08 03:16:20 $' ; $date= substr($date,6,-2);
+  ?>
+  <!-- $Id: nuxijargon.php,v 1.2 2004/03/08 03:16:20 nuxiweb Exp nuxiweb $ -->
+</HEAD>
+
+<BODY>
+
+<H1>The Nuxi problem</H1>
+
+<div class="cite">
+UNIX was ported to the IBM Series 1 minicomputer. The Series 1 had the same
+size words (two bytes) as the PDP-11, but the bytes were swapped. Hence, when
+the machine started up for the first time, it printed out "NUXI" instead of
+"UNIX". Ever since then, the "NUXI problem" has referred to byte ordering
+problems.
+<div class="citeauth">
+[Communications of the ACM, Vol. 26, No. 12 -- December 1983]
+</div>
+</div>
+
+<div class="cite">
+<B>NUXI problem</B> /nuk'see pro'bl*m/ /n./<BR>
+Refers to the problem of transferring data between machines with differing
+byte-order.  The string `UNIX' might look like `NUXI' on a machine with a
+different `byte sex' (e.g., when transferring data from a
+<EM>little-endian</EM> to a <EM>big-endian</EM>, or vice-versa).
+<div class="citeauth">
+[ The Jargon File v 4.0.0 ]
+</div>
+</div>
+
+<!-- Analytics
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2277555-1', 'auto');
+  ga('set','anonymizeIP','true');
+  ga('send', 'pageview');
+</script -->
+
+</BODY>
+</HTML>
